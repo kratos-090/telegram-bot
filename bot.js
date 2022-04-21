@@ -14,7 +14,7 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
 
-    bot.sendMessage(msg.chat.id, "Welcome to the bot");
+    bot.sendMessage(msg.chat.id, "Welcome to the bot, i will be always there to help is the bad hooman is not 😁");
     
 });
 
